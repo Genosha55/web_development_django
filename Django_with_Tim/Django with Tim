@@ -1,0 +1,47 @@
+Django with Tim_youtube tutorial
+
+main: created app
+
+views: different locations shown that is called by the urls;
+	show object(models)  
+
+urls: given a path(passed from the url cutted from the mother project urls) that invoke a specific view
+
+models: objects that will be worked on (has its own method, attributes) needs to be migrated into the current database associated (needs register as well in the admin.py)
+
+
+
+mother project:
+--settings: need to add installed app after create one
+--urls: include path that will be passed to specific app
+
+form:
+## create: in urls -- create in view-- create.html
+generate a class of form then django will help with the form html 
+then add a view with this create to render the page
+{% csrf_token %}
+
+post and get: communicate with server
+post: encrypted for password and stuff
+otherwise, use get if not needed for encrypted and public access
+
+customed form:
+within the list page: create form to communicate with view page for info of if box is checked and stuff
+
+form passed in to view as a dict with name as key and value as value
+
+Adding a sidebar:
+div style
+href link
+a a link tag
+
+
+under head add in the style tag for css for the classes under
+
+Adding bootstrap:
+
+
+
+
+
+
