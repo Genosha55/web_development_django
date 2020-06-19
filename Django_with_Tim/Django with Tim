@@ -41,7 +41,10 @@ under head add in the style tag for css for the classes under
 Adding bootstrap:
 
 
+Registration/ sign up:
+new app, can be used by other proj
 
-
+login logout
+{% if user.is_authenticated %}
 
 
