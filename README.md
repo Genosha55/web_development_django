@@ -1,2 +1,2 @@
-# web_development_django
+# Django ToDoList
 web_development with django
